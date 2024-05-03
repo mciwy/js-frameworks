@@ -1,8 +1,8 @@
-import { combineReducers, configureStore } from "redux";
+import { combineReducers, createStore } from "redux";
 import { reducer } from "./reducer";
 
 const rootReducer = combineReducers({
   count: reducer,
 });
 
-export const store = configureStore(rootReducer);
+export const store = createStore(rootReducer);
