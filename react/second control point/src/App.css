@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  margin: 5px;
+}
+
+.App {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  height: 150px;
+  flex-wrap: wrap;
+}
+
+.did {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+
+}
+
+.butb {
+  width: 150px;
+  height: 50px;
+}
